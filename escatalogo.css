@@ -1,0 +1,47 @@
+header{
+	background: #f7de1c;
+	padding: 60px;
+}
+#destacados{
+	background: #75cac3;
+}
+#ofertas{
+	background: #f9fd50;
+}
+#disponible{
+	background: #c9f658;
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+}
+.contenedor {
+	display: flex;
+	flex-direction: row;
+}
+#contenido {
+	display:flow;
+	flex-direction: column;
+}
+#destacados{
+	text-align: center;
+}
+#destacados .contenedor > div {
+	text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	width: 50%;
+	text-shadow: 0 0 3px white;
+}
+#destacados h1{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 255, 0, 0.3);
+}
+#ofertas{
+	text-align: center;
+
+}
+#ofertas h1{
+	text-shadow: 1px 1px 2px white, 0 0 30px #D46A6A;
+}
