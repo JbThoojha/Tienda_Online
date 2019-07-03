@@ -1,0 +1,40 @@
+.card-img-top:hover {
+    transform:translate(60px,-5px);
+  box-shadow: 60px 60px 60px gray;
+transform: rotate(20deg);
+  transform: rotate3d(50deg);
+}
+
+.card-img-top{
+        /* Aumentamos la anchura y altura durante 2 segundos */
+        transition: width 2s, height 2s, transform 2s;
+        -moz-transition: width 2s, height 2s, -moz-transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+        -o-transition: width 2s, height 2s,-o-transform 2s;
+    }
+    .card-img-top:hover{
+        /* tranformamos el elemento al pasar el mouse por encima al doble de
+           su tamaño con scale(2). */
+        transform : scale(2);
+        -moz-transform : scale(2);      /* Firefox */
+        -webkit-transform : scale(2);   /* Chrome - Safari */
+        -o-transform : scale(2);        /* Opera */
+    }
+
+
+.t1{
+    border: #2A6CD5  0 8px outset;
+    color: #1D98DB;
+      box-shadow: 10px 10px 10px gray;
+}
+.my-4{
+
+  font-style: italic;
+}
+.sr-only{
+  font-style: italic;
+}
+.desc{
+
+  color: green;
+}
